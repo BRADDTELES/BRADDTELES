@@ -2,7 +2,7 @@
 <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="32" height="32">
-</picture> :wave: Olá! me chamo Danillo
+</picture> :wave:Olá! me chamo Danillo
 <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6f8/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6f8/512.gif" alt="🛸" width="32" height="32">
@@ -16,7 +16,7 @@
 <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3af/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3af/512.gif" alt="🎯" width="32" height="32">
-</picture>Interesses:
+</picture>:dart:Interesses:
 </h3>
 <p>Estou em busca de oportunidades desafiadoras nas áreas de programação de sistemas, dados, suporte ou áreas afins, onde possa aplicar meus conhecimento
 </p>
@@ -25,7 +25,7 @@
 <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f913/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f913/512.gif" alt="🤓" width="32" height="32">
-</picture>Skills:
+</picture>:books:Skills:
 </h3>
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -44,7 +44,7 @@
   <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.gif" alt="⚙" width="32" height="32">
-</picture>Ferramentas e Plataformas:
+</picture>:desktop_computer:Ferramentas e Plataformas:
 </h3>
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
@@ -64,7 +64,7 @@
   <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f393/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f393/512.gif" alt="🎓" width="32" height="32">
-</picture>Linkedin:
+</picture>:briefcase:Linkedin:
 </h3>
 
 [<img src="https://media.licdn.com/dms/image/v2/D4D03AQHI20SknUFvqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692528467769?e=1733356800&v=beta&t=XCZg2kxefPwBvIORGgMg8U-YYN8H3gtbzJhY9iDYKcg" width=115><br><sub>Danillo Teles Carneiro</sub>](https://www.linkedin.com/in/danilloteles/) |
