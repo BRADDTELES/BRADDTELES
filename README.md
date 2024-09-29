@@ -1,8 +1,8 @@
 <h1> 
 <picture>
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.webp" type="image/webp">
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.png" type="image/png">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="32" height="32">
-</picture> :wave: Olá! me chamo Danillo
+</picture> Olá! me chamo Danillo
 <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6f8/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6f8/512.gif" alt="🛸" width="32" height="32">
