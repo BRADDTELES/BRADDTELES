@@ -11,9 +11,10 @@ Olá! :wave: , me chamo Danillo
 
 <h3>
 <picture>
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3af/512.webp" type="image/webp">
-  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3af/512.gif" alt="🎯" width="32" height="32">
-</picture>:dart:Interesses:
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a5/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a5/512.gif" alt="💥" width="32" height="32">
+</picture>
+:dart:Interesses:
 </h3>
 <p>Estou em busca de oportunidades desafiadoras nas áreas de programação de sistemas, dados, suporte ou áreas afins, onde possa aplicar meus conhecimento
 </p>
