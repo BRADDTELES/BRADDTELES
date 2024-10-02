@@ -1,9 +1,13 @@
 <h1> 
 <picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47d/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47d/512.gif" alt="👽" width="32" height="32">
+</picture>
+Olá! :wave: , me chamo Danillo
+<picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6f8/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6f8/512.gif" alt="🛸" width="32" height="32">
 </picture>
-Olá! :wave: , me chamo Danillo
 </h1>
 
 <p>Eu sou um estudante apaixonado por tecnologia e inovação. Tenho conhecimentos básicos em algumas linguagens, IDEs/Editors e Sistemas Operacionais.
