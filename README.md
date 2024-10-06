@@ -10,7 +10,7 @@ Olá! :wave: , me chamo Danillo
 </picture>
 </h1>
 
-<p>Eu sou um estudante apaixonado por tecnologia e inovação. Tenho conhecimentos básicos em algumas linguagens, IDEs/Editors e Sistemas Operacionais.
+<p>Eu sou um estudante apaixonado por tecnologia e inovação. Tenho conhecimentos básicos em algumas linguagens, ferramentas, IDEs/Editors e Sistemas Operacionais.
 </p>
 
 <h3>
