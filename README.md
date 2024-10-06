@@ -20,7 +20,7 @@ Olá! :wave: , me chamo Danillo
 </picture>
 :dart:Interesses:
 </h3>
-<p>Estou em busca de oportunidades desafiadoras nas áreas de programação de sistemas, dados, suporte ou áreas afins, onde possa aplicar meus conhecimentos
+<p>Estou em busca de oportunidades desafiadoras nas áreas de programação de sistemas, dados, suporte ou áreas afins, onde possa aplicar meus conhecimentos.
 </p>
 
 <h3>
