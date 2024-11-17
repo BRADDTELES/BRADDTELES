@@ -3,25 +3,62 @@
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47d/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47d/512.gif" alt="👽" width="32" height="32">
 </picture>
-Olá! :wave: , me chamo Danillo
+Oi!, Sou Danillo, um Desenvolvedor Android em Ascensão :wave:
 <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6f8/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6f8/512.gif" alt="🛸" width="32" height="32">
 </picture>
 </h1>
 
-<p>Eu sou um estudante apaixonado por tecnologia e inovação. Tenho conhecimentos básicos em algumas linguagens, ferramentas, IDEs/Editors e Sistemas Operacionais.
-</p>
-
 <h3>
 <picture>
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a5/512.webp" type="image/webp">
-  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a5/512.gif" alt="💥" width="32" height="32">
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f440/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f440/512.gif" alt="👀" width="32" height="32">
 </picture>
-:dart:Interesses:
+  Estou buscando uma vaga no momento :writing_hand:
 </h3>
-<p>Estou em busca de oportunidades desafiadoras nas áreas de programação de sistemas, dados, suporte ou áreas afins, onde possa aplicar meus conhecimentos.
+
+<p>Entusiasta e apaixonado pela tecnologia. Acredito no poder dela para transformar o mundo e, por isso, me dedico na busca constante pelas melhores soluções em código e design.
 </p>
+
+#### Desenvolvo com: :heart: Kotlin, :brain: Testes, :art: Design e :sparkles: Paixão!
+
+
+<h2>
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/26a1/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/26a1/512.gif" alt="⚡" width="32" height="32">
+</picture>
+Habilidades</h2>
+
+<h4>
+  :rocket: Habilidades Android
+</h4>
+
+  * **Kotlin** (Proficiente)
+  * **Java** (Intermediário)
+  * **Dart** (Básico)
+
+**Arquiteturas:**
+  * **MVVM**
+  * **MVP**
+  * **MVC**
+
+**Ferramentas e Tecnologias:**
+  * **Git e GitHub** (Proficiente)
+  * **Figma** (Proficiente)
+  * **SQLite e SQL** (Intermediário)
+  * **Retrofit com Coroutines**
+  * **APIs**
+  * **Postman**
+  * **Node.JS**
+  * **Firebase**
+  
+### Outras Habilidades
+  * Desenvolvimento Web (HTML, CSS, JavaScript, PHP)
+  * Bootstrap (Básico) 
+  * Python
+  * Power BI
 
 <h3>
 <picture>
@@ -66,6 +103,8 @@ Olá! :wave: , me chamo Danillo
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
+## Contato
+
 <h3>
   <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f393/512.webp" type="image/webp">
@@ -76,3 +115,14 @@ Olá! :wave: , me chamo Danillo
 [<img src="https://media.licdn.com/dms/image/v2/D4D03AQHI20SknUFvqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692528467769?e=1733356800&v=beta&t=XCZg2kxefPwBvIORGgMg8U-YYN8H3gtbzJhY9iDYKcg" width=115><br><sub>Danillo Teles Carneiro</sub>](https://www.linkedin.com/in/danilloteles/) |
 :---: |
  ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) |
+
+
+<h3>
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a5/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a5/512.gif" alt="💥" width="32" height="32">
+</picture>
+:dart:Interesses
+</h3>
+<p>Busco oportunidades desafiadoras em desenvolvimento Android, onde eu possa contribuir para a criação de apps incríveis, Vamos conversar! :wink:
+</p>
