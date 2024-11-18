@@ -43,6 +43,7 @@ Habilidades</h2>
   * **MVVM**
   * **MVP**
   * **MVC**
+  * **Clean Architecture**
 
 **Ferramentas e Tecnologias:**
   * **Git e GitHub** (Proficiente)
