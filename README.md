@@ -121,7 +121,7 @@ Habilidades</h2>
 [<img src="https://media.licdn.com/dms/image/v2/D4D03AQHI20SknUFvqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692528467769?e=1733356800&v=beta&t=XCZg2kxefPwBvIORGgMg8U-YYN8H3gtbzJhY9iDYKcg" width=115><br><sub>Danillo Teles Carneiro</sub>](https://www.linkedin.com/in/danilloteles/) |
 :---: |
  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danilloteles/) |
- [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://w.app/DeveloperAndroid) |
+ [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](http://wa.me/5562999184007) |
 
 <h3>
 <picture>
