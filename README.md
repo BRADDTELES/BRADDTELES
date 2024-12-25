@@ -46,7 +46,7 @@ Habilidades</h2>
 
 **Ferramentas e Tecnologias:**
   * **Versionamento com Git e GitHub** (Proficiente)
-  * **SQLite e SQL**
+  * **SQLite, Realm, MySQL e MongoDB**
   * **Figma** (Proficiente)
   * **Jira**
   * **APIs**
