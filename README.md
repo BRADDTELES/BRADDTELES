@@ -35,27 +35,30 @@ Habilidades</h2>
   :rocket: Habilidades Android
 </h4>
 
-  * **Kotlin** (Proficiente)
-  * **Java** (Intermediário)
-  * **Dart** (Básico)
+  * **Kotlin**
+  * **Java**
+  * **Dart**
 
 **Arquiteturas:**
   * **MVVM**
   * **MVP**
   * **MVC**
-  * **Clean Architecture**
 
 **Ferramentas e Tecnologias:**
-  * **Git e GitHub** (Proficiente)
+  * **Versionamento com Git e GitHub** (Proficiente)
+  * **SQLite e SQL**
   * **Figma** (Proficiente)
-  * **SQLite e SQL** (Intermediário)
-  * **Retrofit com Coroutines**
+  * **Jira**
   * **APIs**
   * **Postman**
   * **Node.JS**
   * **Firebase**
   
 ### Outras Habilidades
+  * **Testes unitários**
+  * **Testes instrumentados com Espresso**
+  * **Clean Code, Architecture & Solid**
+  * **Gestão ágil com SCRUM**
   * Desenvolvimento Web (HTML, CSS, JavaScript, PHP)
   * Bootstrap (Básico) 
   * Python
