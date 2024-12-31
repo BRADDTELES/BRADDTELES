@@ -120,7 +120,7 @@ Habilidades</h2>
 </picture>:briefcase:Work e Sociais:
 </h3>
 
-[<img src="https://media.licdn.com/dms/image/v2/D4D03AQHI20SknUFvqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692528467769?e=1733356800&v=beta&t=XCZg2kxefPwBvIORGgMg8U-YYN8H3gtbzJhY9iDYKcg" width=115><br><sub>Danillo Teles Carneiro</sub>](https://www.linkedin.com/in/danilloteles/) |
+[<img src="https://media.licdn.com/dms/image/v2/D4D03AQHI20SknUFvqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692528467769?e=1741219200&v=beta&t=tm7z9OoIEaQ8luAHPmp1eXgPHIDqaHAj0eQGS7dc-dI" width=115><br><sub>Danillo Teles Carneiro</sub>](https://www.linkedin.com/in/danilloteles/) |
 :---: |
  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danilloteles/) |
  [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](http://wa.me/5562999184007) |
