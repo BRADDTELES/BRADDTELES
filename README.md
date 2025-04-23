@@ -48,6 +48,7 @@ Habilidades</h2>
   * **Versionamento com Git e GitHub** (Proficiente)
   * **SQLite, Realm, MySQL e MongoDB**
   * **Figma** (Proficiente)
+  * **Android Jetpack** (Room, WorkManager, LiveData, ViewModel e Compose)
   * **Jira**
   * **APIs**
   * **Postman**
