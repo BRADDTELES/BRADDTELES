@@ -31,39 +31,55 @@ Oi!, Sou Danillo, um Desenvolvedor Android em Ascensão :wave:
 </picture>
 Habilidades</h2>
 
-<h4>
-  :rocket: Habilidades Android
-</h4>
+<h3>
+  :school_satchel: Desenvolvimento Mobile
+</h3>
 
-  * **Kotlin**
-  * **Java**
-  * **Dart**
+  * **Kotlin** (Proficiente)
+  * **Dart** (Básico Intermediário)
+  * **Java** (Iniciante)
 
-**Arquiteturas:**
-  * **MVVM**
-  * **MVP**
-  * **MVC**
+<h3>
+  :rocket: Android Jetpack
+</h3>
 
-**Ferramentas e Tecnologias:**
+* **Room** (Intermediário Avançado)
+* **ViewModel** (Intermediário Avançado)
+* **LiveData** (Intermediário Avançado)
+* **WorkManager** (Intermediário)
+* **Compose** (Básico Intermediário)
+
+### Arquiteturas
+  * **MVVM** (Proficiente)
+  * **MVP** (Intermediário Avançado)
+  * **MVC** (Básico Intermediário)
+
+### Ferramentas e Tecnologias
   * **Versionamento com Git e GitHub** (Proficiente)
-  * **SQLite, Realm, MySQL e MongoDB**
-  * **Figma** (Proficiente)
-  * **Android Jetpack** (Room, WorkManager, LiveData, ViewModel e Compose)
-  * **Jira**
-  * **APIs**
-  * **Postman**
-  * **Node.JS**
-  * **Firebase**
+  * **SQLite, MySQL, Realm e MongoDB** (Intermediário)
+  * **Figma** (Básico Intermediário)
+  * **APIs** (Básico Intermediário)
+  * **Postman** (Básico Intermediário)
+  * **Node.JS** (Básico Intermediário)
+  * **Jira** (Iniciante)
+  * **Firebase** (Iniciante)
   
-### Outras Habilidades
-  * **Testes unitários**
-  * **Testes instrumentados com Espresso**
-  * **Clean Code, Architecture & Solid**
-  * **Gestão ágil com SCRUM**
-  * Desenvolvimento Web (HTML, CSS, JavaScript, PHP)
-  * Bootstrap (Básico) 
-  * Python
-  * Power BI
+### Demais Habilidades
+  * **Clean Code, Architecture & Solid** (Proficiente)
+  * **Gestão ágil com SCRUM** (Intermediário Avançado)
+  * **Testes unitários** (Básico Intermediário)
+  * **Testes instrumentados com Espresso** (Básico Intermediário)
+    
+### Desenvolvimento Web
+  * **HTML** (Básico Intermediário)
+  * **CSS** (Básico Intermediário)
+  * **PHP** (Básico Intermediário)
+  * **JavaScript** (Iniciante)
+  * **Bootstrap** (Iniciante)
+
+### Outras Linguagens e Tecnologias:
+  * **Python** (Iniciante)
+  * **Power BI** (Iniciante)
 
 <h3>
 <picture>
