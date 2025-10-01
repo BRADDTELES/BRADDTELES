@@ -144,7 +144,7 @@ Minhas Habilidades Técnicas (Hard Skills)</h2>
 </picture>:briefcase: Contato e Interesses:
 </h2>
 
-[<img src="https://media.licdn.com/dms/image/v2/D4D03AQHI20SknUFvqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692528467769?e=1758758400&v=beta&t=UJJ1JNsSakfo_9vYhnEr1DcnoWMW46Ky1xWCFXiyO6E" width=115><br><sub>Danillo Teles Carneiro</sub>](https://www.linkedin.com/in/danilloteles/) |
+[<img src="docs/img/profile.jpg" width="115" style="border-radius: 50%;"><br><sub>Danillo Teles Carneiro</sub>](https://www.linkedin.com/in/danilloteles/) |
 :---: |
  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danilloteles/) |
  [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](http://wa.me/5562999184007) |
