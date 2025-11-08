@@ -13,123 +13,7 @@
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <style>
-        :root {
-            --primary-color: #0d6efd;
-            --dark-bg: #212529;
-            --light-text: #f8f9fa;
-            --card-bg: #2c3034;
-        }
-
-        body {
-            background-color: var(--dark-bg);
-            color: var(--light-text);
-        }
-
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border: 3px solid var(--primary-color);
-        }
-
-        .section-title {
-            margin-bottom: 3rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            position: relative;
-            padding-bottom: 10px;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
-            background-color: var(--primary-color);
-        }
-        
-        .card {
-            background-color: var(--card-bg);
-            border: 1px solid #444;
-            height: 100%;
-        }
-
-        .card-header {
-            font-weight: bold;
-            background-color: rgba(0,0,0,0.2);
-        }
-
-        .tech-badges img {
-            margin: 5px;
-            transition: transform 0.2s ease-in-out;
-        }
-
-        .tech-badges img:hover {
-            transform: scale(1.1);
-        }
-
-        .contact-btn {
-            margin: 0 10px;
-            min-width: 150px;
-            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-        }
-
-        .contact-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        }
-        
-        footer {
-            background-color: var(--card-bg);
-        }
-
-        /* Animation Styles */
-        .animated-element {
-            opacity: 0;
-            transform: translateY(40px);
-            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-        }
-
-        .animated-element.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .typing-cursor {
-            display: none; /* Hide cursor by default */
-            background-color: var(--light-text);
-            animation: blink 0.7s infinite;
-            width: 2px;
-            height: 1em;
-            margin-left: 3px;
-            vertical-align: middle;
-        }
-
-        @keyframes blink {
-            50% { opacity: 0; }
-        }
-
-        /* Increased Section Spacing */
-        main .my-5 {
-            margin-top: 3rem !important;
-            margin-bottom: 7rem !important;
-        }
-
-        main .my-7 {
-            margin-top: 9rem !important;
-            margin-bottom: 7rem !important;
-        }
-
-        /* Modal Styles */
-        .modal-content {
-            background-color: #212529; /* Dark background for modal */
-        }
-
-    </style>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body class="d-flex flex-column min-vh-100">
 
@@ -326,7 +210,7 @@
             <div>
                 <a href="https://www.linkedin.com/in/danilloteles/" target="_blank" class="btn btn-primary btn-lg contact-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
                 <a href="https://github.com/BRADDTELES" target="_blank" class="btn btn-outline-light btn-lg contact-btn"><i class="fab fa-github"></i> GitHub</a>
-                <a href="http://wa.me/5562999184007" target="_blank" class="btn btn-success btn-lg contact-btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a href="https://wa.me/5562999184007?text=Ol%C3%A1%2C%20vi%20o%20seu%20Portifólio%20e%20achei%20interessante%20te%20convidar%20para%20uma%20entrevista." target="_blank" class="btn btn-success btn-lg contact-btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
             </div>
         </section>
 
@@ -357,55 +241,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- Animation Script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // --- On-scroll animations --- //
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('is-visible');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.1 });
-            const elementsToAnimate = document.querySelectorAll('.animated-element');
-            elementsToAnimate.forEach(element => { observer.observe(element); });
-
-            // --- Typing effect --- //
-            const textPart1 = ' Desenvolvedor Android';
-            const textPart2 = ' Web Full Stack em Formação';
-            const element1 = document.getElementById('typing-text-1');
-            const element2 = document.getElementById('typing-text-2');
-            const cursor = document.querySelector('.typing-cursor');
-            const typingSpeed = 70;
-            function type(element, text, callback) {
-                let i = 0;
-                function typeChar() {
-                    if (i < text.length) {
-                        element.textContent += text.charAt(i);
-                        i++;
-                        setTimeout(typeChar, typingSpeed);
-                    } else if (callback) { callback(); }
-                }
-                typeChar();
-            }
-            setTimeout(() => {
-                cursor.style.display = 'inline-block';
-                type(element1, textPart1, () => { type(element2, textPart2, () => {}); });
-            }, 500);
-
-            // --- Modal Video Handler --- //
-            const videoModal = document.getElementById('videoModal');
-            const videoIframe = document.getElementById('youtube-video-iframe');
-            videoModal.addEventListener('show.bs.modal', function (event) {
-                const button = event.relatedTarget;
-                const videoSrc = button.getAttribute('data-video-src');
-                videoIframe.setAttribute('src', videoSrc + "?autoplay=1&rel=0");
-            });
-            videoModal.addEventListener('hide.bs.modal', function () {
-                videoIframe.setAttribute('src', '');
-            });
-        });
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
