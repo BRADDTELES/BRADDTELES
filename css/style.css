@@ -57,7 +57,6 @@
         }
 
         .contact-btn {
-            margin: 0 10px;
             min-width: 150px;
             transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
         }
