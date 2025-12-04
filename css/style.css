@@ -5,14 +5,12 @@
   --card-bg: #2c3034;
 }
 
-body {
+/* body {
   color: var(--light-text);
-  /* Adição: Gradient animado para fundo dinâmico */
   background: linear-gradient(135deg, #212529 0%, #0d6efd 50%, #212529 100%);
   background-size: 400% 400%;
   animation: waveGradient 15s ease infinite;
 }
-
 @keyframes waveGradient {
   0% {
     background-position: 0% 0%;
@@ -23,6 +21,52 @@ body {
   100% {
     background-position: 0% 0%;
   }
+} */
+
+/* body {
+  color: var(--light-text);
+  background-color: var(--dark-bg); 
+}
+#matrix-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3; 
+  pointer-events: none;
+} */
+
+body {
+  background: linear-gradient(135deg, #212529 0%, #0d6efd 50%, #212529 100%);
+  background-size: 400% 400%;
+  animation: waveGradient 15s ease infinite;
+  color: var(--light-text);
+  background-color: var(--dark-bg); /* Fundo escuro sólido para combinar com o efeito */
+}
+@keyframes waveGradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+#matrix-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3; /* Opacidade baixa para sutileza */
+  pointer-events: none; /* Não interfere com interações */
+  image-rendering: pixelated; /* Ajuda na nitidez em alguns navegadores */
 }
 
 .profile-img {
@@ -85,7 +129,6 @@ footer {
   background-color: var(--card-bg);
 }
 
-/* Animation Styles */
 .animated-element {
   opacity: 0;
   transform: translateY(40px);
@@ -98,7 +141,7 @@ footer {
 }
 
 .typing-cursor {
-  display: none; /* Hide cursor by default */
+  display: none; 
   background-color: var(--light-text);
   animation: blink 0.7s infinite;
   width: 2px;
@@ -113,7 +156,6 @@ footer {
   }
 }
 
-/* Increased Section Spacing */
 main .my-5 {
   margin-top: 3rem !important;
   margin-bottom: 7rem !important;
@@ -124,7 +166,6 @@ main .my-7 {
   margin-bottom: 7rem !important;
 }
 
-/* Modal Styles */
 .modal-content {
-  background-color: #212529; /* Dark background for modal */
+  background-color: #212529; 
 }
