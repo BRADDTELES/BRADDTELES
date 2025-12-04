@@ -36,13 +36,13 @@ Minhas Habilidades Técnicas (Hard Skills)</h2>
 <h3>
   :school_satchel: Desenvolvimento Mobile (Android)
 </h3>
-<p>Com experiência na criação de <strong>2 aplicativos Android</strong>, utilizando um conjunto robusto de tecnologias e padrões:</p>
+<p>Com experiência na criação de <strong>3 aplicativos Android</strong>, utilizando um conjunto robusto de tecnologias e padrões:</p>
 <ul>
   <li><strong>Linguagens:</strong> Kotlin (Proficiente), Dart (Básico Intermediário), Java (Iniciante)</li>
   <li><strong>Arquitetura:</strong> Clean Architecture, MVVM (Proficiente), MVP (Intermediário Avançado), MVC (Básico Intermediário)</li>
-  <li><strong>Android Jetpack:</strong> Room (Intermediário Avançado), ViewModel (Intermediário Avançado), LiveData (Intermediário Avançado), WorkManager (Intermediário), Compose (Básico Intermediário)</li>
-  <li><strong>UI/UX:</strong> View Binding, XML para interfaces, Glide, Lottie, Splash Screen, MPAndroidCharts</li>
-  <li><strong>Gerenciamento de Dados/APIs:</strong> Retrofit, Flow, StateFlow, SafeArgs, Navigation Component</li>
+  <li><strong>Android Jetpack:</strong> Room (Intermediário Avançado), ViewModel (Intermediário Avançado), LiveData (Intermediário Avançado), WorkManager (Intermediário), Jetpack Compose (Básico Intermediário), DataStore, Paging 3</li>
+  <li><strong>UI/UX:</strong> View Binding, XML para interfaces, Glide, Coil, Lottie, Splash Screen, MPAndroidCharts e Material 3 Expressive</li>
+  <li><strong>Gerenciamento de Dados/APIs:</strong> Retrofit, Ktor, Flow, StateFlow, SafeArgs, Navigation Component</li>
   <li><strong>Injeção de Dependências:</strong> Hilt</li>
   <li><strong>Segurança:</strong> Security Crypto</li>
   <li><strong>Componentes:</strong> Activities e Fragments</li>
