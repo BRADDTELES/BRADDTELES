@@ -218,4 +218,48 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   setInterval(draw, 50); // Atualização lenta (a cada 100ms para movimento suave)
+
+  // --- Navbar background change on scroll --- //
+  const navbar = document.querySelector(".custom-navbar");
+  if (navbar) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add("navbar-scrolled");
+      } else {
+        navbar.classList.remove("navbar-scrolled");
+      }
+    }, { passive: true });
+  }
+
+  // --- Swiper Articles Carousel Initialization --- //
+  new Swiper(".swiper-articles", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    coverflowEffect: {
+      rotate: 45,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  // --- Back to Top Button Logic --- //
+  const backToTopButton = document.getElementById("backToTopBtn");
+  if (backToTopButton) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        backToTopButton.classList.add("show");
+      } else {
+        backToTopButton.classList.remove("show");
+      }
+    }, { passive: true });
+  }
 });

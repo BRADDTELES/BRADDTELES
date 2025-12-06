@@ -3,6 +3,14 @@
   --dark-bg: #212529;
   --light-text: #f8f9fa;
   --card-bg: #2c3034;
+  --mobile-border-color: #B125EA; /* Roxo Neon para Mobile */
+  --web-border-color: #00BFFF;   /* Azul Celeste para Web */
+  --tools-border-color: #FFA500; /* Laranja para Ferramentas */
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px; /* Offset for the fixed navbar */
 }
 
 /* body {
@@ -96,9 +104,15 @@ body {
 }
 
 .card {
-  background-color: var(--card-bg);
-  border: 1px solid #444;
+  background-color: rgba(44, 48, 52, 0.4); /* Cor do card com 40% de opacidade */
+  border: 1px solid rgba(68, 68, 68, 0.4); /* Borda com 40% de opacidade */
   height: 100%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Adiciona transição para animação suave */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Move o card para cima */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Sombra genérica para cards sem borda colorida */
 }
 
 .card-header {
@@ -168,4 +182,144 @@ main .my-7 {
 
 .modal-content {
   background-color: #212529; 
+}
+
+/* Custom Navbar Styles */
+.custom-navbar {
+  background-color: transparent !important;
+  transition: background-color 0.3s ease-in-out;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: 1030; /* Valor padrão do Bootstrap para navbars fixas */
+}
+
+.custom-navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.custom-navbar .nav-link {
+  font-weight: 500;
+  margin-left: 15px;
+  position: relative;
+}
+
+.custom-navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Style for the navbar when scrolled */
+.navbar-scrolled {
+  background-color: var(--dark-bg) !important;
+}
+
+/* Styles for the collapsed mobile menu */
+@media (max-width: 991.98px) {
+  .navbar-collapse.show {
+    background-color: rgba(33, 37, 41, 0.95); /* Using var(--dark-bg) with opacity */
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    margin-top: 0.5rem;
+  }
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    padding: 0.25rem 0;
+  }
+}
+
+/* Ensure content is not hidden behind fixed navbar */
+body {
+  padding-top: 70px; /* Adjust this value based on your navbar's height */
+}
+
+/* Swiper Articles Carousel Styles */
+.swiper-articles {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-articles .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px; /* Width of the central slide */
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.swiper-articles .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+/* Make side slides slightly smaller and more transparent for the coverflow effect */
+.swiper-articles .swiper-slide:not(.swiper-slide-active) {
+  opacity: 0.4;
+  transform: scale(0.85);
+}
+
+/* Card specific borders and glow for Skills section */
+#mobile-card-wrapper .card {
+  border: 3px solid var(--mobile-border-color);
+  box-shadow: 0 0 15px var(--mobile-border-color);
+}
+#mobile-card-wrapper .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px var(--mobile-border-color); /* Brilho mais forte no hover */
+}
+
+#web-card-wrapper .card {
+  border: 3px solid var(--web-border-color);
+  box-shadow: 0 0 15px var(--web-border-color);
+}
+#web-card-wrapper .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px var(--web-border-color); /* Brilho mais forte no hover */
+}
+
+#tools-card-wrapper .card {
+  border: 3px solid var(--tools-border-color);
+  box-shadow: 0 0 15px var(--tools-border-color);
+}
+#tools-card-wrapper .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px var(--tools-border-color); /* Brilho mais forte no hover */
+}
+
+/* Back to Top Button Styles */
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1050;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+#backToTopBtn.show {
+  opacity: 1;
+  visibility: visible;
 }
